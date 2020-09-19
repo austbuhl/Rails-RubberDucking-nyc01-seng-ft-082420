@@ -25,3 +25,14 @@ With this website, a user should be:
 * Able to create a new duck with an association to a student (and make sure that their name and type are not blank)
 
 Some of the models and resources have already been provided for you. Make the necessary edits and alterations to make the website function as expected.
+
+
+# Notes
+    - Duck belongs_to student
+    - Student has_many ducks
+    - Ducks have to be created with a student
+
+Just do all 7 and throw in some delete functionality
+* Student views = index, show, new, edit, create, update
+* Duck views = index, show, edit, new, create, update
+
